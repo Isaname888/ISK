@@ -1,0 +1,62 @@
+
+body{
+margin:0;
+font-family: Arial;
+background:black;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:20px;
+background:#111;
+padding:15px;
+position:fixed;
+width:100%;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:url("https://images.unsplash.com/photo-1518546305927-5a555bb7020d") center/cover;
+text-shadow:2px 2px 5px black;
+}
+
+section{
+padding:100px 20px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#222;
+padding:20px;
+border-radius:15px;
+width:200px;
+}
+
+.card img{
+width:100%;
+border-radius:15px;
+}
+
+.dark{
+background:#111;
+}
+
+footer{
+background:#000;
+padding:20px;
+display:flex;
+justify-content:space-around;
+}
